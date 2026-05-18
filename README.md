@@ -57,7 +57,7 @@ $$CScore = \alpha \cdot H + (1 - \alpha) \cdot B$$
 
 
 ## 项目结构
-
+```
 HyBac-PSP/
 ├── config/default.yaml           # 参数配置
 ├── data/
@@ -83,7 +83,7 @@ HyBac-PSP/
 │   └── example_usage.md          # 使用示例
 ├── requirements.txt
 └── setup.py
-
+```
 
 
 ## 依赖
@@ -139,24 +139,12 @@ python src/api.py input_proteins.fasta -o results.csv
 ---
 
 ## 适用场景
-
 - 加酶洗涤剂中产碱性酶工业菌株的反向分离与溯源
 - 宏基因组数据中碱性水解酶基因的挖掘与宿主推断
 - 环境样品中新型碱性蛋白酶/脂肪酶产生菌的定向筛选
 
-
-```bibtex
-@software{HyBac-PSP,
-  author = {VergilVolk},
-  title = {HyBac-PSP: Hydrozyme Bacterial Pre-screen Pipeline},
-  year = {2026},
-  url = {https://github.com/VergilVolk/HyBac-PSP}
-}
-```
-
 ---
 
 ## 许可证
-
 MIT License. 详见 [LICENSE](LICENSE)。
 ```
