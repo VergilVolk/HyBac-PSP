@@ -1,0 +1,9 @@
+# HyBac-PSP 默认参数
+alpha: 0.6
+evalue_threshold: 1.0e-10
+cscore_high: 0.7
+cscore_medium: 0.4
+hmm_subtilisin: "data/hmm/alk_subtilisin.hmm"
+hmm_lipase: "data/hmm/alk_lipase_I4.hmm"
+pssm_subtilisin: "data/pssm/AlkSub_PSSM.json"
+pssm_lipase: "data/pssm/AlkLipI4_PSSM.json"

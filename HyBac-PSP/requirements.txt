@@ -1,0 +1,4 @@
+biopython>=1.79
+numpy
+pandas
+pyyaml
